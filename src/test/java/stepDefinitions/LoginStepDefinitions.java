@@ -10,8 +10,8 @@ import pages.commonPage;
 public class LoginStepDefinitions extends LoginPage {
     pages.commonPage commonPage = new commonPage();
 
-    @Given("I navigate to VSIP service")
-    public void i_navigate_to_vsip_service() {
+    @Given("I navigate to DPS service")
+    public void i_navigate_to_dps_service() {
 
         commonPage.loginVSIPService();
     }

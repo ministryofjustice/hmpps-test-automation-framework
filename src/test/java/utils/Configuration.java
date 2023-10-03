@@ -21,7 +21,7 @@ public class Configuration {
         switch (environment) {
             case DEV:
                 return new Configuration(
-                        "the url of the service",
+                        "https://digital-dev.prison.service.justice.gov.uk/",
                         10
                 );
 //          Findout local url
